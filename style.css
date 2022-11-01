@@ -1,0 +1,13 @@
+body {
+    height: 0px;
+    margin: 0px;
+}
+.calculator {
+    display: flex;
+    height: 10rem;
+    width: 25rem;
+    flex-direction: column;
+}
+.buttons > button {
+    color: white ;
+}
