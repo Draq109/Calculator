@@ -1,13 +1,30 @@
+html {
+    height: 100%;
+    width: 100%;
+}
 body {
-    height: 0px;
+    height: auto;
+    padding: 0px;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .calculator {
     display: flex;
-    height: 10rem;
-    width: 25rem;
+    height: auto;
+    width: auto;
     flex-direction: column;
 }
 .buttons > button {
-    color: white ;
+    color: black;
+    height: 7rem;
+    width: 7rem;
+    background: skyblue;
 }
+
+.buttons > button:hover {
+    background: lightblue;
+}
+
